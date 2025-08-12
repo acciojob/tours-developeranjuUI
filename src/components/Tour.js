@@ -4,7 +4,7 @@ function Tour({ id, image, info, price, name, removeTour }) {
   const [readMore, setReadMore] = useState(false);
 
   return (
-    <article style={{ border: "1px solid #ddd", padding: "15px", margin: "10px" }}>
+    <article style={{ border: "1px solid #ddd", padding: "15px", margin: "10px", width: '30%' }}>
       <img src={image} alt={name} style={{ width: "100%", height: "200px", objectFit: "cover" }} />
       <footer>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
